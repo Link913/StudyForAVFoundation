@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4D8ACD22EDB0AF00C38344 /* RecordAndPlayAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D8ACC22EDB0AF00C38344 /* RecordAndPlayAudioViewController.swift */; };
+		3B4D8AD022EDB0B700C38344 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D8ACF22EDB0B700C38344 /* 1.mp3 */; };
 		3B68071B22B5F2780040D441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68071A22B5F2780040D441 /* AppDelegate.swift */; };
 		3B68071D22B5F2780040D441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68071C22B5F2780040D441 /* ViewController.swift */; };
 		3B68072022B5F2780040D441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B68071E22B5F2780040D441 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4D8ACC22EDB0AF00C38344 /* RecordAndPlayAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAndPlayAudioViewController.swift; sourceTree = "<group>"; };
+		3B4D8ACF22EDB0B700C38344 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 		3B68071722B5F2780040D441 /* AVFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B68071A22B5F2780040D441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B68071C22B5F2780040D441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4D8ACB22EDB0AF00C38344 /* RecordAndPlayAudio */ = {
+			isa = PBXGroup;
+			children = (
+				3B4D8ACC22EDB0AF00C38344 /* RecordAndPlayAudioViewController.swift */,
+			);
+			path = RecordAndPlayAudio;
+			sourceTree = "<group>";
+		};
+		3B4D8ACE22EDB0B700C38344 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B4D8ACF22EDB0B700C38344 /* 1.mp3 */,
+			);
+			name = Resource;
+			path = ../../../../AVFoundation/AVFoundationDemo/AVFoundationDemo/Resource;
+			sourceTree = "<group>";
+		};
 		3B68070E22B5F2780040D441 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +82,8 @@
 		3B68071922B5F2780040D441 /* AVFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3B4D8ACE22EDB0B700C38344 /* Resource */,
+				3B4D8ACB22EDB0AF00C38344 /* RecordAndPlayAudio */,
 				3B68071A22B5F2780040D441 /* AppDelegate.swift */,
 				3B68071C22B5F2780040D441 /* ViewController.swift */,
 				3B68071E22B5F2780040D441 /* Main.storyboard */,
@@ -85,7 +108,6 @@
 				AE9442CD35164394F617A2FA /* Pods-AVFoundationDemo.debug.xcconfig */,
 				5ECE60D9510260ABF298B1C8 /* Pods-AVFoundationDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4D8AD022EDB0B700C38344 /* 1.mp3 in Resources */,
 				3B68072522B5F2780040D441 /* LaunchScreen.storyboard in Resources */,
 				3B68072222B5F2780040D441 /* Assets.xcassets in Resources */,
 				3B68072022B5F2780040D441 /* Main.storyboard in Resources */,
@@ -211,6 +234,7 @@
 			files = (
 				3B68071D22B5F2780040D441 /* ViewController.swift in Sources */,
 				3B68071B22B5F2780040D441 /* AppDelegate.swift in Sources */,
+				3B4D8ACD22EDB0AF00C38344 /* RecordAndPlayAudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
